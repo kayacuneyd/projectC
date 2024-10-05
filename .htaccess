@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^portfolio/?$ index.php?page=portfolio [L]
+RewriteRule ^about/?$ index.php?page=about [L]
+RewriteRule ^contact/?$ index.php?page=contact [L]
+RewriteRule ^privacy/?$ index.php?page=privacy [L]
+RewriteRule ^terms/?$ index.php?page=terms [L]
+RewriteRule ^$ index.php?page=home [L]
